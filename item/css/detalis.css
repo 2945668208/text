@@ -1,0 +1,137 @@
+a{
+    color: black; 
+ }
+ body{
+     background-color:#c4c4c4;
+ }
+ .w{
+     width: 1200px;
+     height: 100%;
+     margin: 0 auto;
+ }
+ /* 首页头部 */
+ .header{
+     background-image: url(../img/5.jpg);
+     height: 50px;
+     margin-bottom: 50px;
+ }
+ .head>ul>li{
+     float: left;
+     height: 50px;
+     line-height: 50px;
+     margin-right: 60px;
+ }
+ .head>ul>li>input{
+     width: 180px;
+     height: 25px;
+ }
+ .head>ul>li>button{   
+     width: 50px;
+     height: 30px;
+ }
+ .head>ul>li:nth-last-child(2){
+    margin-right: 30px;
+ }
+ .head>ol>li{
+     height: 50px;
+     line-height: 50px;
+     margin-right: 40px;
+     float: right;
+ }
+ /*放大镜 */
+ .content{
+     height: 450px;
+     position: relative;
+ }
+ .content-left{
+     width: 300px;
+     height: 300px;
+     position: absolute;
+     left: 0;
+     top: 0;
+ }
+ .content-left img{
+     width: 300px;
+     height: 300px;
+ }
+ .content-left .left{
+     width: 100px;
+     height: 100px;
+     background-color:rgba(255, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+ }
+ .big{
+     width: 300px;
+     height: 300px;
+     position: absolute;
+     top: 0;
+     left: 350px;
+     overflow: hidden;
+     display: none;
+     z-index: 5;
+ }
+ .bigimg{
+     height: 900px;
+     width: 900px;
+     position: absolute;
+ }
+ /* 右边内容 */
+ .content-right{
+     position: absolute;
+     top: 0;
+     left:400px;
+     z-index: 2;
+     width: 400px;
+     height: 400px;
+     padding: 10px;
+     box-sizing: border-box;
+     background-color: #fff;
+
+ }
+.content-right p{
+    height: 20px;
+    width: 380px;
+    line-height: 20px;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 50px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.ha{
+    width: 380px;
+    height: 40px;
+    background-color: pink;
+    font-size: 20px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    color: red;
+}
+.ha span{
+    float: left;
+    margin-right: 30px;
+    margin-top: 3px;
+    color: black;
+}
+.ha b{
+    float: left;
+    margin-top:3px ;
+}
+.p1{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    color: black;
+}
+.pp{
+    width: 800px;
+    height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: cornflowerblue;
+}
